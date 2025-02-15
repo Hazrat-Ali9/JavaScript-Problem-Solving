@@ -22,4 +22,4 @@ const canPlaceFlowers = (flowerbed, n) => {
   return count === n;
 };
 
-export { canPlaceFlowers };
+// export { canPlaceFlowers };
