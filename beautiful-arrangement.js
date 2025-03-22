@@ -25,4 +25,4 @@ const backtracking = (N, index, used, solution, result) => {
   }
 };
 
-export { countArrangement };
+
