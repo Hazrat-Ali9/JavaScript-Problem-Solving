@@ -1,4 +1,4 @@
-
+// Delete Operation for Two String
 /**
  * @param {string} word1
  * @param {string} word2
