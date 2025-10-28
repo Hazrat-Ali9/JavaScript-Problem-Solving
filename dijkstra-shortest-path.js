@@ -14,7 +14,7 @@ const dijkstra = (graph, start) => {
   const pq = new MinPriorityQueue();
 
   // Initialize distances
-  for (let node in graph) {
+  for (const node of Object.keys(graph)) {
     distances[node] = Infinity;
     previous[node] = null;
   }
@@ -35,7 +35,7 @@ const dijkstra = (graph, start) => {
 
     // Check all neighbors
     const neighbors = graph[currentNode] || [];
-    for (let neighbor of neighbors) {
+    for (const neighbor of neighbors) {
       const { node: neighborNode, weight } = neighbor;
       const distance = distances[currentNode] + weight;
 
