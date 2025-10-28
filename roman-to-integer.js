@@ -64,4 +64,3 @@ console.log('LVIII:', romanToInt('LVIII'));     // 58
 console.log('MCMXCIV:', romanToInt('MCMXCIV')); // 1994
 
 module.exports = romanToInt;
-
