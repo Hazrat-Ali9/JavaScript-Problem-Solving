@@ -1,7 +1,7 @@
 var flat = function (arr, n) {
     function helper(array, depth) {
         let result = [];
-
+// flatten deeply nested array
         for (const item of array) {
             if (Array.isArray(item) && depth < n) {
                 result.push(...helper(item, depth + 1));
